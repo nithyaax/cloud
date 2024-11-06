@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Security</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+        .security-icon {
+            font-size: 2rem;
+            color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Cloud Computing Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="issues.html">Issues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="security.html">Remedies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usecase.html">Use Cases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="applications.html">Applications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="performance.html">Performance</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section mt-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Cloud Computing Security</h1>
+            <p class="text-center lead">Protecting your data and applications in the cloud</p>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <section id="overview" class="mb-5">
+            <h2><i class="bi bi-shield-check me-2"></i>Overview</h2>
+            <div class="card">
+                <div class="card-body">
+                    <p>Cloud computing security refers to the set of measures, controls, policies, and technologies that work together to protect cloud-based systems, data, and infrastructure. It is a critical aspect of cloud computing, addressing the unique challenges posed by storing and processing data and applications on remote servers accessed via the internet.</p>
+                    <p>As organizations increasingly adopt cloud services, ensuring robust security measures becomes paramount to protect sensitive information, maintain compliance, and safeguard business operations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="key-concerns" class="mb-5">
+            <h2><i class="bi bi-exclamation-triangle me-2"></i>Key Security Concerns</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-lock security-icon mb-3"></i><br>Data Breaches</h5>
+                            <p class="card-text">Unauthorized access to sensitive data stored in the cloud, potentially leading to data theft or exposure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-person-x security-icon mb-3"></i><br>Insider Threats</h5>
+                            <p class="card-text">Malicious actions by employees or contractors with authorized access to cloud resources.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-hdd-network security-icon mb-3"></i><br>Shared Vulnerabilities</h5>
+                            <p class="card-text">Security flaws in the underlying cloud infrastructure that can affect multiple clients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-cloud-slash security-icon mb-3"></i><br>Data Loss</h5>
+                            <p class="card-text">Accidental or malicious deletion, alteration, or corruption of data stored in the cloud.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="best-practices" class="mb-5">
+            <h2><i class="bi bi-check-circle me-2"></i>Security Best Practices</h2>
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5><i class="bi bi-key me-2"></i>Strong Authentication</h5>
+                            <p>Implement multi-factor authentication (MFA) and strong password policies.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5><i class="bi bi-lock me-2"></i>Data Encryption</h5>
+                            <p>Use encryption for data at rest and in transit to protect sensitive information.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5><i class="bi bi-eye me-2"></i>Regular Audits</h5>
+                            <p>Conduct regular security audits and vulnerability assessments of your cloud environment.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5><i class="bi bi-person-badge me-2"></i>Access Control</h5>
+                            <p>Implement least privilege access and regularly review and update access permissions.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5><i class="bi bi-shield me-2"></i>Security Training</h5>
+                            <p>Provide ongoing security awareness training for all employees accessing cloud resources.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="mb-5">
+            <h2><i class="bi bi-tools me-2"></i>Cloud Security Tools</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Access Security Brokers (CASBs)</h5>
+                            <p class="card-text">Software tools or services that sit between cloud service users and cloud applications to monitor activity and enforce security policies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Workload Protection Platforms (CWPPs)</h5>
+                            <p class="card-text">Security solutions designed to protect workloads in public cloud, private cloud, and hybrid cloud environments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Security Posture Management (CSPM)</h5>
+                            <p class="card-text">Tools that continuously monitor cloud infrastructure for misconfigurations, compliance violations, and security risks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="row mb-3 align-items-center">
+                            <label for="name" class="col-sm-3 col-form-label">Name</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="name" value="Nithiyaa T" readonly>
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <label for="rollNumber" class="col-sm-3 col-form-label">Roll Number</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="rollNumber" value="22BCS082" readonly>
+                            </div>
+                        </div>
+                       
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cloud Computing Applications. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
